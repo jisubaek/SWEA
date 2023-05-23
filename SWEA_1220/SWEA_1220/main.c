@@ -56,7 +56,7 @@ int main(int argc, char** argv)
 	*/
 	for(test_case = 1; test_case <= T; ++test_case)
 	{
-		//교착상태가 일어나는 조건 ->한 열에 두개 이상,
+		//교착상태가 일어나는 조건 ->한 열에 다른극이 두개 이상,
 		//테이블과 제일 가까운 자성체가 같은 극일때 발생
 		int array[10][10];
 		int n_count = 0;
